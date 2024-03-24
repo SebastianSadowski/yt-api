@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: bobosharkapi
+
+youtube:
+  project:
+    application_name: test
+    client_id: test
+    client_secret: test
+
+---
+spring:
+  config:
+    activate:
+      on-profile: classpath-files
